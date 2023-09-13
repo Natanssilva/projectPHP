@@ -22,3 +22,6 @@ projectPHP - work
           - O código SQL resultou na seguinte consulta:
                <br>
                <img src  = "https://github.com/Natanssilva/projectPHP/assets/99294586/63ffca80-a25d-47f0-aa29-495851b0ea14">
+               <br>
+    - ETAPA 2: Para cada pedido, varrer a tabela de itens e apresentar abaixo do pedido (buscar denominação do item através de relacionamento com a tabela de item).
+      - Pra isso foi feito o seguinte código SQL:
