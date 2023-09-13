@@ -12,7 +12,7 @@ projectPHP - work
 
 - Criando projeto por etapas:
     - ETAPA 1: Varrer a tabela de pedidos(buscar nome de cliente através do relacionameto com a tabela de cliente)
-        - Pra isso foi feito o seguinte código SQL:
+        - Consulta para buscar nome do cliente através do relacionamento com a tabela de cliente. Pra isso foi feito o seguinte código SQL:
           ```
           SELECT p.num_pedido, c.nom_cliente
           FROM pedido AS p
@@ -24,10 +24,14 @@ projectPHP - work
                <img src  = "https://github.com/Natanssilva/projectPHP/assets/99294586/63ffca80-a25d-47f0-aa29-495851b0ea14">
                <br>
     - ETAPA 2: Para cada pedido, varrer a tabela de itens e apresentar abaixo do pedido (buscar denominação do item através de relacionamento com a tabela de item).
-      - Pra isso foi feito o seguinte código SQL:
+      -  Consulta para buscar denominação do item através de relacionamento com a tabela de item. Pra isso foi feito o seguinte código SQL:
         ```
             SELECT p.num_pedido,i.num_seq_item, i.cod_item,it.den_item
             FROM pedido AS p 
             JOIN item_pedido AS i ON (p.num_pedido = i.num_pedido)
             JOIN item AS it ON  (i.cod_item = it.cod_item);
         ```
+         <br>
+               <img src  = "https://github.com/Natanssilva/projectPHP/assets/99294586/d83c73f2-e606-4cf3-b495-8d9826a3c2df">
+         <br>
+        
