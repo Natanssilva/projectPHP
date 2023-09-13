@@ -20,4 +20,5 @@ projectPHP - work
           ```
           - AS p, AS c são formas de colocar apelidos a tabelas e tornar mais facil
           - O código SQL resultou na seguinte consulta:
-               <img src  = "">
+               <br>
+               <img src  = "https://github.com/Natanssilva/projectPHP/assets/99294586/63ffca80-a25d-47f0-aa29-495851b0ea14">
