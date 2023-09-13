@@ -34,4 +34,19 @@ projectPHP - work
          <br>
                <img src  = "https://github.com/Natanssilva/projectPHP/assets/99294586/d83c73f2-e606-4cf3-b495-8d9826a3c2df">
          <br>
-        
+  - ADICIONANDO DADOS:
+    ```
+      INSERT item_pedido (num_pedido, num_seq_item, cod_item,qtd_solicitada, pre_unitario)
+      VALUES (99,6,1,1,9.90);
+
+      INSERT item_pedido (num_pedido, num_seq_item, cod_item,qtd_solicitada, pre_unitario)
+      VALUES (100,7,2,1,10.90);
+
+
+      INSERT pedido (num_pedido,cod_cliente)
+      VALUES (99,1);
+
+
+      INSERT pedido (num_pedido,cod_cliente)
+      VALUES (100,2);
+    ```
