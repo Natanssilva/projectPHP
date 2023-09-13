@@ -14,7 +14,7 @@ projectPHP - work
     - ETAPA 1: Varrer a tabela de pedidos(buscar nome de cliente através do relacionameto com a tabela de cliente)
         - Pra isso foi feito o seguinte código SQL:
           ```
-          explica SELECT p.num_pedido, c.nom_cliente
+          SELECT p.num_pedido, c.nom_cliente
           FROM pedido AS p
           LEFT JOIN cliente AS c ON (p.cod_cliente = c.cod_cliente);
           ```
@@ -25,3 +25,9 @@ projectPHP - work
                <br>
     - ETAPA 2: Para cada pedido, varrer a tabela de itens e apresentar abaixo do pedido (buscar denominação do item através de relacionamento com a tabela de item).
       - Pra isso foi feito o seguinte código SQL:
+        ```
+            SELECT p.num_pedido,i.num_seq_item, i.cod_item,it.den_item
+            FROM pedido AS p 
+            JOIN item_pedido AS i ON (p.num_pedido = i.num_pedido)
+            JOIN item AS it ON  (i.cod_item = it.cod_item);
+        ```
