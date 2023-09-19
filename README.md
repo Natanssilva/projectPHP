@@ -50,3 +50,5 @@ projectPHP - work
       INSERT pedido (num_pedido,cod_cliente)
       VALUES (100,2);
     ```
+
+    -FICAR ATENTO A DIFERENÇA DE JOIN, LEFT JOIN E RIGHT JOIN
