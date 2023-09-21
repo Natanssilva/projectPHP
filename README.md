@@ -4,7 +4,7 @@ projectPHP - work
 - Diagrama de relacionamento
 
 
-  <img src = "https://github.com/Natanssilva/projectPHP/assets/99294586/9c469bf7-f9d4-4b0d-91e8-e252d99057b2"> 
+  <img src = "https://github.com/Natanssilva/projectPHP/assets/99294586/e0b83896-40f9-45e7-91c5-269e45ae3c03"> 
 
 - Os relacionamentos do tipo N:N (muitos para muitos) ocorrem quando vários registros de uma tabela se relacionam a vários registros de outra. Ou seja, em nenhum dos lados há exclusividade no relacionamento.
   Diferente do que ocorre no 1:N, nessas situações não é possível que uma tabela tenha uma referência direta à outra, pois isso indicaria que cada registro está relacionado unicamente a um da outra tabela.
