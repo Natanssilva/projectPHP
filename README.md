@@ -52,3 +52,12 @@ projectPHP - work
     ```
 
     -FICAR ATENTO A DIFERENÇA DE JOIN, LEFT JOIN E RIGHT JOIN
+
+    ```
+      SELECT (num_seq_item + 1) AS increment_num_seq_item
+      FROM item_pedido 
+      WHERE num_pedido = 99
+      ORDER BY num_seq_item
+;
+
+    ```
