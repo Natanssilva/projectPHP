@@ -1,4 +1,4 @@
-# projectPHP
+# Pedidos
 
 - Diagrama de relacionamento
 
@@ -13,3 +13,4 @@
     - BOOTSTRAP CSS
     - PHP
     - MySQL
+# Explicação do projeto
