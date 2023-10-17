@@ -1,6 +1,6 @@
 # Pedidos
 
-- Diagrama de relacionamento
+- Diagrama de relacionamento do database
 
 
   <img src = "https://github.com/Natanssilva/projectPHP/assets/99294586/e0b83896-40f9-45e7-91c5-269e45ae3c03"> 
