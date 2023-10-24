@@ -16,4 +16,5 @@
 # Explicação do projeto
   -Lista de pedidos para prática de php e MySQL
   - Na branch Main temos o projeto desenvolvido sem utilização de frameworks
-  - Na branch Master utilizamos Jquery e Jeasy UI, combinado com PHP e MySQL para criação do mesmo projeto só que de uma maneira mais dinamica e fluida 
+  - Na branch Master utilizamos Jquery e Jeasy UI, combinado com PHP e MySQL para criação do mesmo projeto só que de uma maneira mais dinamica e fluida
+  - Focando em UI 
